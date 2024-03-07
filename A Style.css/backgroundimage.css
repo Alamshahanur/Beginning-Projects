@@ -1,0 +1,17 @@
+*{
+    padding:0%;
+    margin:0%;
+}
+
+
+div{
+    width:100px;
+    height:100px;
+    right:0px;
+    top:50px;
+    text-align:center;
+    background-size:cover;
+    background-image:url(cat.jpg);
+    position:fixed;
+   
+}

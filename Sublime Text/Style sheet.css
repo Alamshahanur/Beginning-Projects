@@ -1,0 +1,93 @@
+*{
+	margin:0%;
+	padding:0%;
+}
+
+/*This is Flex practice of css */
+body{
+    text-align: center;
+    text-transform:capitalize;
+}
+  section{
+    display:flex;
+  }  
+
+div{
+    height:50px;
+    width:50px;
+    display:inline-block;
+    border:solid 1px;
+}
+#container{
+    width:500px;
+    height:200px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;  
+    align-items:center;
+    background-color:lavenderblush;
+}
+
+#box1{
+	border-radius:30px;
+    background-color:aqua;
+}
+#box2{
+	border-radius:10%,25%;
+    background-color:pink;
+}
+#box3{
+    height:160px;
+	border-radius:10%,30%,50%,70%;
+    background-color:darkkhaki;
+}
+#box4{
+	border-radius:10%/50%;
+    background-color:indianred;
+}
+#box5{
+	border-radius:10px,100px / 12px;
+    background-color:slateblue;
+}
+#box6{
+	border-radius:50%,20% / 10%, 40%;
+	background-color:aqua;
+}
+
+div{
+    height:100px;
+    width:100px;
+    display:inline-block;
+    border:solid 1px;
+}
+.container{
+    width:500px;
+    height:200px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center; 
+    align-items:end;
+    background-color:lavenderblush;
+}
+#boxone{
+    height:80px;
+    background-color:aqua;
+}
+#boxtwo{
+    height:120px;
+    background-color:pink;
+}
+#boxthree{
+    height:80px;
+    background-color:darkkhaki;
+}
+#boxfour{
+    height:90px;
+    background-color:indianred;
+}
+#boxfive{
+    background-color:slateblue;
+}
+#boxsix{
+    background-color:aqua;
+}

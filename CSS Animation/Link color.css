@@ -1,0 +1,65 @@
+#divone{
+    width:200px;
+    height:200px;
+    background-color:aliceblue;
+    border:1px solid black;
+    font-size:medium;
+    text-align:center;
+    filter: drop-shadow(10px 10px 20px rgb(126, 124, 124) )
+}
+div:visited{
+    background-color:green;
+    color:pink;
+}
+div:hover{
+    background-color:hotpink;
+    color:rgb(73, 73, 243);
+}
+div:active{
+    background-color: blue;
+    color:white;
+}
+a:hover{
+ color:blueviolet;
+ font-size:20px;
+}
+
+a:active{
+    color:gray;
+}
+/*Animation Started form hear*/
+#animation{
+    height:250px;
+    width:250px;
+    margin-left: 35%;
+    text-align:center;
+    border:solid silver; 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#animation{
+    transition-property:all;
+    transition-duration:2s;
+    transition-timing-function:steps(0);
+    transition-delay:0.1s;
+    filter: drop-shadow(10px 10px 30px  rgb(239, 120, 140))
+}
+#animation:visited{
+    background-color:green;
+    color:pink;
+}
+#animation:hover{
+    background-color:hotpink;
+    color:rgb(73, 73, 243);
+    font-size:x-large;
+    transform:rotate(180deg)
+}
+#animation:active{
+    background-color: blue;
+    color:white;
+}
+#font{
+   margin-top:40%;
+   font-size:x-large;
+}

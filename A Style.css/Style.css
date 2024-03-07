@@ -1,0 +1,34 @@
+div  {
+ background-color: azure;
+}
+
+h3 {
+ color: #ff0000;
+ color: rgb(125,00,00);
+ text-align:center;
+ text-size-adjust:5px;
+ line-height:normal;
+}
+
+button{
+    color:#eee;
+    background-color:rgb(34, 121, 198);
+}
+h2{
+    text-size-adjust :20px;
+    color:brown;
+    text-align:center;
+    text-decoration:double underline purple;
+}
+#paragraph3{
+ text-decoration:line-through;
+}
+#paragraph1{
+    text-decoration:underline;
+}
+#paragraph2{
+    text-decoration:overline;
+}
+#paragraphfour{
+    text-decoration:wavy underline;
+}

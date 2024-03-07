@@ -1,0 +1,120 @@
+body{
+    text-align: center;
+    text-transform:capitalize;
+}
+                         /*This is  the flex justify-content practice*/
+div{
+    height:50px;
+    width:50px;
+    display:inline-block;
+    border:solid 2px;
+}
+#container{
+    width:800px;
+    height:200px;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;  /*There are several type of flex justify-content=flex-start/flex-end/center/space-evenly.*/
+}
+#box1{
+    background-color:aqua;
+}
+#box2{
+    background-color:pink;
+}
+#box3{
+    background-color:darkkhaki;
+}
+#box4{
+    background-color:indianred;
+}
+#box5{
+    background-color:slateblue;
+}
+             /*This is flex-end*/
+div{
+    height:50px;
+    width:50px;
+    display:inline-block;
+    border:solid 2px;
+}
+.containertwo{
+    width:800px;
+    height:200px;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;  /*There are several type of flex justify-content=flex-start/flex-end/center/space-evenly.*/
+}
+#box1{
+    background-color:aqua;
+}
+#box2{
+    background-color:pink;
+}
+#box3{
+    background-color:darkkhaki;
+}
+#box4{
+    background-color:indianred;
+}
+#box5{
+    background-color:slateblue;
+}
+                    /*This is flex center*/
+div{
+    height:50px;
+    width:50px;
+    display:inline-block;
+    border:solid 2px;
+}
+#containerthree{
+    width:800px;
+    height:200px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;  /*There are several type of flex justify-content=flex-start/flex-end/center/space-evenly.*/
+}
+#box1{
+    background-color:aqua;
+}
+#box2{
+    background-color:pink;
+}
+#box3{
+    background-color:darkkhaki;
+}
+#box4{
+    background-color:indianred;
+}
+#box5{
+    background-color:slateblue;
+}
+       /*This is flex space-evenly*/
+div{
+    height:50px;
+    width:50px;
+    display:inline-block;
+    border:solid 2px;
+}
+.containerfour{
+    width:800px;
+    height:200px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;  /*There are several type of flex justify-content=flex-start/flex-end/center/space-evenly.*/
+}
+#box1{
+    background-color:aqua;
+}
+#box2{
+    background-color:pink;
+}
+#box3{
+    background-color:darkkhaki;
+}
+#box4{
+    background-color:indianred;
+}
+#box5{
+    background-color:slateblue;
+}

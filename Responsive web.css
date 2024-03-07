@@ -1,0 +1,187 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html body{
+    height: 100%;
+    width: 100%;
+   
+  
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vh 5vw;
+    height:7vh;
+    width:100%;
+    /* background-color: rgb(211, 222, 222);
+    box-shadow:1vh 1vh 1vh rgb(181, 178, 178); */
+}
+.logo{
+    color:black;
+    font-size:2.50em;
+    font-weight:800;
+    padding:3vw;
+}
+span{
+    color:rgb(235, 105, 58);
+    padding: 0vw 0.50vw;
+}
+.menu{
+    display: flex;
+    gap: 3vw;
+}
+nav i{
+    color:black;
+    font-size:1.50vw;
+    font-weight:900px;
+    display:Hidden;
+}
+
+    /* This is the main html text decoration*/
+body .container {
+   height:80%;
+   width:100%;
+   background-color:rgb(111, 160, 111);
+} 
+.main{
+    height:calc(110.6vh - 100px);
+    width:100%;
+    /* background-color: antiquewhite; */
+    display:flex;
+}
+.left{
+    /* background-color: chocolate; */
+    height:100%;
+    width:50%;
+}
+.right{
+    /* background-color: rgb(215, 201, 71); */
+    height:100%;
+    width:50%;
+}
+.left{
+    font-size:4vh;
+    padding:4vw 9vw;
+    padding-top:10%;
+    line-height:7.3vh;
+}
+p{
+    font-size:3vh;
+     line-height: 3.5vh; 
+    padding:3vh 0vw 4vh 0.40vw;
+    
+}
+button{
+    background-color:coral ;
+    color:black;
+    padding:2vh 2vw 2vh 2vw;
+    font-weight: 900;
+    font-size:2.5vh;
+    font-family:Arial, Helvetica, sans-serif;
+    border:1vh solid coral;
+}
+button:hover{
+      transition-duration: 1s;
+       background-color:orange;
+       border: solid 1vh orange;
+}
+.right img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+
+}
+nav i{
+    display:none;
+}
+
+
+@media (max-width:900px) {
+    html body{
+        background-color: azure;
+    }
+    .logo{
+        color:black;
+        font-size:1.4em;
+        font-weight:800;
+        padding:3vw;
+    }
+    header nav{
+        background-color: blanchedalmond;
+    }
+    span{
+        color:rgb(253, 104, 51);
+    }
+     h4{
+        display:none;
+    }
+    nav i{
+        display:block;
+        font-size: 3vh;
+        font-weight:800;
+        font-weight:bold;
+    }
+
+    /* This is the main html text's  decration*/
+    .main{
+        height:88vh;
+        width:100%;
+        /* background-color: antiquewhite; */
+        display:flex;
+        flex-direction:column;
+    }
+    .left{
+        /* background-color: chocolate; */
+        height:100%;
+        width:100%;
+    }
+    .right{
+        /* background-color: rgb(215, 201, 71); */
+        height:50%;
+        width:100%;
+    }
+    .left{
+        font-size:15px;
+        padding:4vw 9vw;
+        padding-top:4%;
+         line-height:4vh; 
+    }
+    p{
+        font-size:10px;
+         line-height: 3.5vh; 
+        padding:3vh 0vw 4vh 0.40vw;
+        line-height:2vh;
+        
+    }
+    button{
+        background-color:coral ;
+        color:black;
+        padding:4px 4px 4px 4px;
+        font-weight: 900;
+        font-size:1vh;
+        font-family:Arial, Helvetica, sans-serif;
+        border:2px solid coral;
+        box-shadow: 1px 1px 1px 1px rgb(243, 237, 237);
+       
+    }
+    button:hover{
+          transition-duration: 1s;
+           background-color:rgb(255, 123, 0);
+           border: solid 1px rgb(244, 144, 14);
+    }
+    button:active{
+        background-color: rgb(230, 128, 19);
+        font-size: 1.5vh ;
+        transition-duration: 0.4s;
+        
+    }
+    .right img{
+        height:98%;
+        width:100%;
+        object-fit: cover;
+    
+    }
+}

@@ -1,0 +1,82 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+
+/*This css is for fotter*/
+footer{
+ text-align:center;
+ background-color:rgb(104, 104, 104);
+ color:rgb(229, 229, 229);
+ margin-top:110;
+ 
+}
+#footerone{
+    text-align:center;
+}
+a:visited{
+ color:rgba(250,00,00,0.75);
+}
+a:hover{
+ color:blue;
+}
+a:active{
+    color:purple;
+}
+
+/*This css for middle part*/
+/*this is and absolute position practice*/
+.boxone{
+    width:100px;
+    height:100px;
+    text-align: center;
+    border:2px solid black;
+    display:inline-block;
+    margin-bottom:450px;
+    margin-left: 75px;
+    border-radius: 48px;
+    position:absolute;
+}
+
+.boxtwo{
+    width:100px;
+    height:100px;
+    text-align:center;
+    border:2px solid black;
+    display:inline-block;
+    margin-bottom:450px;
+   /* margin-left:;*/
+    border-radius: 48px;
+    position:relative;
+
+}
+
+.boxthree{
+    width:100px;
+    height:100px;
+    text-align:center;
+    border:2px solid black;
+    display:inline-block;
+    margin-bottom:450px;
+    border-radius:48px;
+    margin-left: 90px;
+    position: fixed;
+}
+
+.boxfour{
+    width:100px;
+    height:100px;
+    text-align:center;
+    border:2px solid black;
+    display:inline-block;
+    margin-bottom:450px;
+    margin-left:20px;
+    border-radius:48px;
+    position:sticky;
+}
+
+/*THis is logo*/
+.logobox{
+    position:fixed;
+    right:0%;
+}

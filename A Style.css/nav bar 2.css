@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.logo{
+    color:rgb(230, 178, 81);
+    font-size:45px;
+    float:left;
+    padding:10px 10px;
+}
+
+   
+.nav{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: rgb(50, 45, 45);
+}
+ul{
+    overflow: auto;
+}
+ li{
+    list-style: none;
+    display:inline;
+    margin-right:40px;
+    float:right;
+    padding:20px 50px;
+}

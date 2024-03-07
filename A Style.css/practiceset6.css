@@ -1,0 +1,47 @@
+.navbar{
+    background-color:pink;
+    height: 30px;
+}
+ul{
+    display:flex;
+    justify-content: space-evenly;
+    align-content:center;
+}
+button{
+    margin-right: 20%;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+li{
+    list-style-type:none;
+}
+
+section{
+    display:flex;
+    justify-content:center;
+}
+.outer{
+    background-color:black;
+    width:500px;
+    height:500px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:10px;
+    border:0.1px;
+    border-radius:50%;
+}
+.inner{
+    background-color:white;
+    width:200px;
+    height:200px;
+    border:0.1px;
+    border-radius:80px / 125px;
+}
+@media (width:600px){
+    section{
+        background-color: red;;
+    }
+}

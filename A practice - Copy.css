@@ -1,0 +1,24 @@
+#inset{
+    
+}
+a{
+    text-decoration:underline rgb(130, 123, 123);
+    text-transform:capitalize;
+    color:black;
+}
+.marktag{
+    background-color: rgb(131, 204, 204);
+}
+#secondh1{
+    text-align:left;
+}
+#textdecoration{
+    font-family: 'Times New Roman', Times, serif;
+}
+/*This is div tags*/
+#firstdiv{
+    background-color: azure;
+}
+#seconddiv{
+    background-color: beige;
+}

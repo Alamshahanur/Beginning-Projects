@@ -1,0 +1,37 @@
+*{
+    font-family:'Times New Romes';
+}
+h1 {
+    text-align:center;
+    text-transform:capitalize;
+}
+#outer{
+    font-size:25px;
+}
+#inner{
+    font-size:10px;
+}
+button{
+    padding: 3px 28px;
+    color:rgb(240, 245, 250);
+    background-color:rgba(19, 66, 237, 0.878);
+    text-decoration:underline solid rgb(4, 11, 14);
+    display:inline-block;
+}
+.vertualline {
+    text-align:bottom;
+	margin-left: 100px;
+	background: red;
+	width: 8px;
+	border-radius: 50%;
+	animation: grow 10s forwards;
+}
+
+@keyframes grow{
+    0% {
+        height: 0px ;
+    }
+    100% {
+        height:100px;
+    }
+}

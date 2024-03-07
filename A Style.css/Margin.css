@@ -1,0 +1,29 @@
+h2{
+    text-align:center;
+    color:red;
+}
+p{
+    border:2px solid black;
+    margin-top: 25px;
+    margin-right:50px;
+    margin-bottom:75px;
+    margin-left:100px;
+    background-color:lightblue;
+}
+h1{
+    text-align:center;
+}
+#secondmargin{
+    border:0cm;
+    margin:30px 60px -40px;
+    background-color:aquamarine;
+    display:none;
+}
+body{
+    background-image:url(arrow\ line.png);
+    background-repeat:no-repeat;
+    background-position:left top;
+}
+canvas{
+    border:1px solid black;
+}

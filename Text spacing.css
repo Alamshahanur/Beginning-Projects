@@ -1,0 +1,36 @@
+body{
+    background-color:rgb(218, 238, 218);
+}
+h1{
+    text-align:center;
+    text-shadow:2px 2px 5px rgb(89, 210, 89);
+}
+h2{
+    text-shadow:1px 3px 4px rgb(225, 125, 225);
+}
+li{
+    color:rgb(165, 71, 30);
+    text-shadow:0 0 3px rgba(166, 70, 30, 0.9)
+}
+
+    /*This is the text indent example part*/
+.text-indent{
+    text-indent:80px;
+}
+.letterspacing{
+    letter-spacing:5px;
+}
+.lineheight{
+    line-height:5px;
+}
+.wordspacing{
+    word-spacing:5px;
+}
+.whitespace{
+    white-space:wrap;
+}
+/*This is letter spacing practice*/
+.letterspacing{
+   letter-spacing:8px;
+}
+ 

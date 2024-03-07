@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h2 {
+  color: brown;
+}
+.item1{grid-area:Header;}
+.item2{grid-area:Article;}
+.item3{grid-area:footer;}
+
+#container{
+  display: grid;
+  grid-template-areas: 
+  "Header   Header  Header Header Header Header"
+  "Article Article Article Article Article Article"
+  "footer   footer  footer footer footer footer "; 
+  background-color: burlywood;
+  border:5px solid purple;
+  text-align:center;
+  gap: 10px;
+}
+#container >div{
+  background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+ 
+
+

@@ -1,0 +1,41 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+                 /*this is conten area*/
+#conten{
+    height:370px;
+}
+.contenbox{
+    width:100px;
+    height:100px;
+    border:2px solid black;
+    display:inline-block;
+}
+                   /*this is heading area*/
+#navbar{
+   background-color: #0f1111;
+   height:40px;
+}
+
+#logo{
+margin-left: 2px;
+color: #f08804;
+font-size:25px;
+}
+button{
+   background-color:#f08804;
+}
+a{
+    text-decoration:none;
+    margin-right:110px;
+    font-size:10px;
+    color:white;
+}
+                /*This is footer area*/
+footer{
+    background-color:#0f1111;
+    color:whitesmoke;
+    font-size:12px;
+    text-align:center;
+}

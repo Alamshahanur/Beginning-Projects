@@ -1,0 +1,121 @@
+body{
+    text-align: center;
+    text-transform:capitalize;
+}
+                         /*This is  the flex box direcrion row*/
+div{
+    height:50px;
+    width:50px;
+    display:inline-block;
+    border:solid 2px;
+}
+#container{
+    width:800px;
+    height:200px;
+    display:flex;
+    flex-direction:row;  /*There are four type of direction = row, row-reverse ,colume & colume-reverse .*/
+}
+#box1{
+    background-color:aqua;
+}
+#box2{
+    background-color:pink;
+}
+#box3{
+    background-color:darkkhaki;
+}
+#box4{
+    background-color:indianred;
+}
+#box5{
+    background-color:slateblue;
+}
+
+                  /*This is flex box direction column.*/
+div{
+    height:50px;
+    width:50px;
+    display:inline-block;
+    border:solid 2px;
+}
+.containertwo {
+    width:800px;
+    height:200px;
+    display:flex;
+    flex-direction:column; /*There are four type of direction = row, row-reverse ,colume & colume-reverse .*/
+}
+   
+#box1{
+    background-color:aqua;
+}
+#box2{
+    background-color:pink;
+}
+#box3{
+    background-color:darkkhaki;
+}
+#box4{
+    background-color:indianred;
+}
+#box5{
+    background-color:slateblue;
+}
+
+                     /*This is  the flex box direcrion row-reverse*/
+div{
+    height:50px;
+    width:50px;
+    display:inline-block;
+    border:solid 2px;
+}
+#containerthree{
+    width:800px;
+    height:200px;
+    display:flex;
+    flex-direction:row-reverse;  /*There are four type of direction = row, row-reverse ,colume & colume-reverse .*/
+}
+#box1{
+    background-color:aqua;
+}
+#box2{
+    background-color:pink;
+}
+#box3{
+    background-color:darkkhaki;
+}
+#box4{
+    background-color:indianred;
+}
+#box5{
+    background-color:slateblue;
+}
+
+                 /*This is flex box direction column-reverse.*/
+div{
+    height:50px;
+    width:50px;
+    display:inline-block;
+    border:solid 2px;
+}
+.containerfour {
+    width:800px;
+    height:200px;
+    display:flex;
+    flex-direction:column-reverse; /*There are four type of direction = row, row-reverse ,colume & colume-reverse .*/
+}
+   
+#box1{
+    background-color:aqua;
+}
+#box2{
+    background-color:pink;
+}
+#box3{
+    background-color:darkkhaki;
+}
+#box4{
+    background-color:indianred;
+}
+#box5{
+    background-color:slateblue;
+}

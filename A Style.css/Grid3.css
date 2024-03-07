@@ -1,0 +1,40 @@
+.container {
+  background-color: antiquewhite;
+  border: solid 10px goldenrod;
+  width: 99%;
+  height: auto;
+}
+
+.container > div {
+  background-color: aliceblue;
+  border: 5px solid gray;
+  border-radius: 5px;
+  width: 70px;
+  height: 60px;
+}
+
+.container {
+    display: grid;
+    gap: 10px;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px;
+    
+  }
+
+              /*All the grid items are here given bellow */
+              
+ .item1 {
+ grid-column: 1/2;
+  grid-row:    1/2;
+ }
+ .item2 {
+}
+.item3 {
+}
+
+.item4 {
+    grid-column: 1/2;
+    grid-row:    1/2;
+}
+.item5 {
+}

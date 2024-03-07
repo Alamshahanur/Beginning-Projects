@@ -1,0 +1,28 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing:border-box;
+}
+#container{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap:wrap;
+
+}
+.gallerybox{
+    margin:5px;
+    border:1px solid #ccc;
+    float:left;
+    width:180px;
+    background-size:cover;
+}
+.gallerybox img{
+    width:100%;
+    height:auto;
+}
+a{
+    text-decoration:none;
+    color:black;
+    align-items: center;
+}

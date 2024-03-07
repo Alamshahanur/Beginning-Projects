@@ -1,0 +1,112 @@
+
+h1{
+    color:rgb(10,25,60)
+}
+
+p.dotted{
+    border-style:dotted;
+}
+p.dashed{
+    border-style:dashed;
+}
+p.solid{
+    border-style:solid;
+}
+p.double{
+    border-style:double;
+}
+p.groove{
+    border-style:groove;
+}
+p.ridge{
+    border-style:ridge;
+}
+p.inset{
+    border-style:inset;
+}
+p.outset{
+    border-style:outset;
+}
+p.none{
+    border-style:none;
+}
+p.hidden{
+    border-style:hidden;
+}
+p.mix{
+    border-style:dashed solid dotted double
+}
+
+p.fivepx{
+    border-style:solid;
+    border-width:5px;
+}
+p.medium{
+    border-style:dotted;
+    border-width:medium;
+}
+p.twopx{
+    border-style:double;
+    border-width:2px
+}
+p.thick{
+    border-style:dashed;
+    border-width:thick;
+}
+p.thin{
+    border-style:solid;
+    border-width:thin;
+}
+
+h1.one{
+    -webkit-text-fill-color:brown;
+    text-align:center;
+    color:solid black;
+}
+p.dottedtwo{
+    border-style:dotted;
+}
+p.doubletwo{
+    border-style:double;
+}
+p.dashedtwo{
+    border-style:dashed;
+}
+p.solidtwo{
+    border-style:solid;
+}
+p.groovetwo{
+    border-style:groove;
+}
+p.ridgetwo{
+    border-style:groove;
+}
+p.insettwo{
+    border-style:inset;
+}
+p.outsettwo{
+    border-style:outset;
+}
+p.nonetwo{
+    border-style:none;
+}
+p.hiddentwo{
+    border-style:hidden'
+}
+p.mixtwo{
+    border-top-style:solid;
+    border-left-style:dotted;
+    border-bottom-style:double;
+    border-right-style:dashed;
+    border-top-width:4px;
+}
+#one{
+    border-style:inset;
+    border-bottom-color:aqua;
+    border-bottom-width:3px;
+}
+html{
+    background-image:url("www.jpg");
+    -webkit-text-fill-color: aqua;
+    text-shadow:5px 5px 8px black;
+}

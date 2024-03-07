@@ -1,0 +1,87 @@
+h1{
+    color:red;
+}
+#container{
+    width:100%;
+    height:450px;
+    background-color: rgb(219, 65, 30);
+    border:3px wavy gray;
+}
+#container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    align-content: space-evenly;
+    
+}
+
+.one{
+    width:250px;
+    height:150px;
+    background-color: rgb(187, 187, 105);
+    border:2px solid black;
+    
+}
+.two{
+    width:250px;
+    height:150px;
+    background-color: rgb(187, 187, 105);
+}
+.three{
+    width:250px;
+    height:150px;
+    background-color: rgb(187, 187, 105);
+  
+}
+.four{
+    width:250px;
+    height:150px; 
+    background-color: rgb(187, 187, 105);
+}
+.five{
+    width:250px;
+    height:150px;
+    background-color: rgb(187, 187, 105);
+    
+}
+.six{
+    width:250px;
+    height:150px;
+    background-color: rgb(187, 187, 105);
+   
+}
+.seven{
+    width:250px;
+    height:150px;
+    background-color: rgb(187, 187, 105);
+   
+}
+.eight{
+    width:250px;
+    height:150px;
+    background-color: rgb(187, 187, 105);
+    
+}
+.nine{
+    width:250px;
+    height:150px;
+    background-color: rgb(187, 187, 105);
+
+}
+.ten{
+    width:250px;
+    height:150px;
+    background-color: rgb(187, 187, 105);
+   
+}
+.eleven{
+    width:250px;
+    height:150px;
+    background-color: rgb(187, 187, 105);
+  
+}
+.twelve{
+    width:250px;
+    height:150px;
+    background-color: rgb(187, 187, 105);
+}
